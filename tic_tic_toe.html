@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="website icon" type="png" href="./midia/logo-rock.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="tic_tic_toe.css" />
+    <script src="./tic_tic_toe.js" defer></script>
+  </head>
+  <body>
+    <h1>TicTacToe</h1>
+    <hr />
+    <div class="logo-rock">
+      <img class="logo-center" src="./midia/logo-rock.svg" alt="logo-rock" >
+    </div>
+    <div class="player-section">
+    <label class="color-forit" for="player1"><b>X</b></label>
+    <input type="text" id="player1" placeholder="Name of the player one" />
+    <label class="color-forit" for="player2"><b>O</b></label>
+    <input type="text" id="player2" placeholder="Name of the player two" />
+   </div>
+
+     <div class="button">
+    <button id="start"><b>Let's start!</b></button>
+    <h2>Turn of : <span id="turnPlayer"></span></h2>
+    </div>
+
+    <br>
+    <section id="gameBoard">
+      <span class="cursor-pointer" data-region="0.0"></span>
+      <span class="cursor-pointer" data-region="0.1"></span>
+      <span class="cursor-pointer" data-region="0.2"></span>
+      <span class="cursor-pointer" data-region="1.0"></span>
+      <span class="cursor-pointer" data-region="1.1"></span>
+      <span class="cursor-pointer" data-region="1.2"></span>
+      <span class="cursor-pointer" data-region="2.0"></span>
+      <span class="cursor-pointer" data-region="2.1"></span>
+      <span class="cursor-pointer" data-region="2.2"></span>
+    </section>
+  </body>
+</html>
